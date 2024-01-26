@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+  height: 46vh;
+  width: 50vh;
+  border: 2px solid black;
+  padding: 3vh;
+  background: linear-gradient(to right, #e7ca58, hsl(24, 87%, 65%));
+}
+.credentials{
+    padding: 1vh;
+}
+h2{
+    text-align: center;
+    font-size: 5vh;
+}
+.credentials{
+    font-size: 3.4vh;
+   
+}
+input{
+    font-size: 2.5vh;
+    outline: none;
+    background-color: beige;
+    border: none;
+    padding: 1vh;
+    border-radius: 1vh;
+    color: black;
+}
+.id{
+    display: flex;
+    display: grid;
+    grid-template-columns: 1 2;
+
+    margin: 2vh;
+   
+}
+
+.pass input{
+    type:"password";
+    
+}
+button{
+    height: 4vh;
+    width: 14vh;
+    font-size: 2.4vh;
+    background-color: beige;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 32%;
+}
+.sign{
+    display: flex;
+    font-size: 2.4vh;
+    justify-content: center;
+    padding-right: 2vh;
+    margin: 2vh;
+}
